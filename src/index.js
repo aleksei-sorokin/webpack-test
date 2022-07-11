@@ -1,6 +1,8 @@
 import { testFile } from './test';
 
-export const runConsole = () => {
+const runConsole = () => {
   testFile();
   console.log('test');
 };
+
+export default runConsole;
